@@ -1,0 +1,72 @@
+body{
+    background-color: #D4B483;
+
+}
+#main-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 20px;
+}
+#txt{
+    display: flex;
+    border: 2px solid rgb(71, 71, 71) ;
+    border-radius: 10%;
+    padding: 20px;
+    background-color: #ffe89d;
+
+}
+
+#textarea{
+    border: none;
+    background-color: #ffe89d;
+
+}
+
+#color{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#button{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#add{
+    background-color: #48A9A6;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+#refresh{
+    background-color: #C1666B;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#right-container{
+    width: 50rem;
+    height: 40rem;
+    border: 2px solid rgb(71, 71, 71);
+    border-radius: 10%;
+    padding: 20px;
+    background-color: #fbdedf;
+}
+#message{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
